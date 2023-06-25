@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center
+
+}
+
+
+body{
+    font-family: VT323;
+    margin: 0;
+    background-color: #82C3EC;
+}
+
+.header{
+    color: #FFF8DE;
+    background-color: #472183;
+    font-size: 24px;
+}
+
+.title{
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.tools{
+    background-color: #4B56D2;
+    width: 300px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tool-button{
+    font-family: VT323;
+    font-size: 18px;
+    display: block;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.grid-size{
+    font-family: VT323;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.tool-button:focus:not(#clear-button){
+    background-color: #b3b3b3;
+}
+
+.container2{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    background-color: #4B56D2;
+    margin-left:50px;
+}
+
+.container-box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 32px;
+    height: 32px;
+}

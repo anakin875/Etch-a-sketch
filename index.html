@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&family=VT323&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Etch-a-sketch</h1>
+    </header>
+    <div class="wrapper">
+        <div id="tools" class="tools">
+            <div class="tools-container">
+                <label for="color-picker">Choose a color</label>
+                <input class="color-picker" id="color-picker">
+                <button id="eraser-button" class="tool-button">Eraser</button>
+                <button id="rainbow-button" class="tool-button">Rainbow</button>
+                <button id="clear-button" class="tool-button">Clear</button><br>
+            </div>
+            <label for="grid-size">Choose the grid size:</label>
+            <div class="gridsize-container">
+                <button id="grid-size" class="grid-size" value= 16>16x16</button>
+                <button id="grid-size" class="grid-size" value= 32>32x32</button>
+                <button id="grid-size" class="grid-size" value= 64>64x64</button>
+            </div>
+        </div>
+        <div class="container2">
+            <div id="container-box" class="container-box">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
